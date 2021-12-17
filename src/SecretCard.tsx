@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import DictionaryCard from './DictionaryCard.tsx';
+import React from 'react';
 import './theme-basic.css';
 
 type MyProps = {

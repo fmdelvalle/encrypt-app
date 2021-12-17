@@ -29,7 +29,7 @@ const icons = ['smile text-darkorange', 'phone text-blue',
 export default function CodedCard( Props: MyProps ) : JSX.Element {
     const [shuffle] = useState<number>(Math.floor(Math.random()*100));
     const {t}=useTranslation();
-    if( Props.text.length == 0 ) {
+    if( Props.text.length === 0 ) {
         return <div className='alert alert-warning'>{t('Please enter some text')}</div>
     }
     // Ok, divide text into characters
@@ -40,7 +40,7 @@ export default function CodedCard( Props: MyProps ) : JSX.Element {
     let map = {};
     uniquechars
         .filter( char => [' ',',','.',':',';','/','\\','[',']','(',')'].includes(char) === false )
-        .map( (char,i) => {
+        .forEach((char,i) => {
             map[char] = icons[ (i + shuffle ) % icons.length];
         });
     
