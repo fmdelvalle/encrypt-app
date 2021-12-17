@@ -1,0 +1,483 @@
+$aliceblue: #F0F8FF !default;
+$antiquewhite: #FAEBD7 !default;
+$aqua: #00FFFF !default;
+$aquamarine: #7FFFD4 !default;
+$azure: #F0FFFF !default;
+$beige: #F5F5DC !default;
+$bisque: #FFE4C4 !default;
+$black: #000000 !default;
+$blanchedalmond: #FFEBCD !default;
+$blue: #0000FF !default;
+$blueviolet: #8A2BE2 !default;
+$bluewedgewood: #4b7c9e !default;
+$brown: #A52A2A !default;
+$brownantiquebrass: #C48E6A !default;
+$browngeebung: #d38a1d !default;
+$browntaupe: #3a302b !default;
+$browntoast: #9b6f65 !default;
+$burlywood: #DEB887 !default;
+$cadetblue: #5F9EA0 !default;
+$chartreuse: #7FFF00 !default;
+$chocolate: #D2691E !default;
+$coral: #FF7F50 !default;
+$cornflowerblue: #6495ED !default;
+$cornsilk: #FFF8DC !default;
+$crimson: #DC143C !default;
+$cyan: #00FFFF !default;
+$darkblue: #00008B !default;
+$darkcyan: #008B8B !default;
+$darkgoldenrod: #B8860B !default;
+$darkgray: #A9A9A9 !default;
+$darkgreen: #006400 !default;
+$darkkhaki: #BDB76B !default;
+$darkmagenta: #8B008B !default;
+$darkolivegreen: #556B2F !default;
+$darkorange: #FF8C00 !default;
+$darkorchid: #9932CC !default;
+$darkred: #8B0000 !default;
+$darksalmon: #E9967A !default;
+$darkseagreen: #8FBC8F !default;
+$darkslateblue: #483D8B !default;
+$darkslategray: #2F4F4F !default;
+$darkturquoise: #00CED1 !default;
+$darkviolet: #9400D3 !default;
+$deeppink: #FF1493 !default;
+$deepskyblue: #00BFFF !default;
+$dimgray: #696969 !default;
+$dodgerblue: #1E90FF !default;
+$firebrick: #B22222 !default;
+$floralwhite: #FFFAF0 !default;
+$forestgreen: #228B22 !default;
+$fuchsia: #FF00FF !default;
+$gainsboro: #DCDCDC !default;
+$ghostwhite: #F8F8FF !default;
+$gold: #FFD700 !default;
+$goldenrod: #DAA520 !default;
+$gray: #808080 !default;
+$graybalticsea: #241f28 !default;
+$graychateau: #a6a9ab !default;
+$grayflint: #6d6a62 !default;
+$grayoslo: #919599 !default;
+$grayshuttle: #5c6c83 !default;
+$grayspunpearl: #B1B1C1 !default;
+$graywoodsmoke: #171D1D !default;
+$green: #008000 !default;
+$greenaquaforest: #67ad6b !default;
+$greenasparagus: #649c56 !default;
+$greenfern: #6ab072 !default;
+$greenfruitsalad: #569a55 !default;
+$greenyellow: #ADFF2F !default;
+$honeydew: #F0FFF0 !default;
+$hotpink: #FF69B4 !default;
+$indianred: #CD5C5C !default;
+$indigo: #4B0082 !default;
+$ivory: #FFFFF0 !default;
+$khaki: #F0E68C !default;
+$lavender: #E6E6FA !default;
+$lavenderblush: #FFF0F5 !default;
+$lawngreen: #7CFC00 !default;
+$lemonchiffon: #FFFACD !default;
+$lightblue: #ADD8E6 !default;
+$lightcoral: #F08080 !default;
+$lightcyan: #E0FFFF !default;
+$lightgoldenrodyellow: #FAFAD2 !default;
+$lightgray: #D3D3D3 !default;
+$lightgreen: #90EE90 !default;
+$lightpink: #FFB6C1 !default;
+$lightsalmon: #FFA07A !default;
+$lightseagreen: #20B2AA !default;
+$lightskyblue: #87CEFA !default;
+$lightslategray: #778899 !default;
+$lightsteelblue: #B0C4DE !default;
+$lightyellow: #FFFFE0 !default;
+$lime: #00FF00 !default;
+$limegreen: #32CD32 !default;
+$linen: #FAF0E6 !default;
+$magenta: #FF00FF !default;
+$maroon: #800000 !default;
+$mediumaquamarine: #66CDAA !default;
+$mediumblue: #0000CD !default;
+$mediumorchid: #BA55D3 !default;
+$mediumpurple: #9370D8 !default;
+$mediumseagreen: #3CB371 !default;
+$mediumslateblue: #7B68EE !default;
+$mediumspringgreen: #00FA9A !default;
+$mediumturquoise: #48D1CC !default;
+$mediumvioletred: #C71585 !default;
+$midnightblue: #191970 !default;
+$mintcream: #F5FFFA !default;
+$mistyrose: #FFE4E1 !default;
+$moccasin: #FFE4B5 !default;
+$navajowhite: #FFDEAD !default;
+$navy: #000080 !default;
+$oldlace: #FDF5E6 !default;
+$olive: #808000 !default;
+$olivedrab: #6B8E23 !default;
+$orange: #FFA500 !default;
+$orangebrandypunch: #d28525 !default;
+$orangeecstasy: #f97815 !default;
+$orangefirebush: #e49d33 !default;
+$orangered: #FF4500 !default;
+$orangezest: #e18c1e !default;
+$orchid: #DA70D6 !default;
+$palegoldenrod: #EEE8AA !default;
+$palegreen: #98FB98 !default;
+$paleturquoise: #AFEEEE !default;
+$palevioletred: #D87093 !default;
+$papayawhip: #FFEFD5 !default;
+$peachpuff: #FFDAB9 !default;
+$peru: #CD853F !default;
+$pink: #FFC0CB !default;
+$pinkamaranth: #ec2f45 !default;
+$pinkcannon: #964276 !default;
+$pinkdeepblush: #E18590 !default;
+$pinksea: #EA99A7 !default;
+$plum: #DDA0DD !default;
+$pomegranate: #f44336 !default;
+$powderblue: #B0E0E6 !default;
+$purple: #800080 !default;
+$purplerevolver: #23172d !default;
+$purplesmoky: #69577C !default;
+$red: #FF0000 !default;
+$rosybrown: #BC8F8F !default;
+$royalblue: #4169E1 !default;
+$saddlebrown: #8B4513 !default;
+$salmon: #FA8072 !default;
+$sandybrown: #F4A460 !default;
+$seagreen: #2E8B57 !default;
+$seashell: #FFF5EE !default;
+$sienna: #A0522D !default;
+$silver: #C0C0C0 !default;
+$skyblue: #87CEEB !default;
+$slateblue: #6A5ACD !default;
+$slategray: #708090 !default;
+$snow: #FFFAFA !default;
+$springgreen: #00FF7F !default;
+$steelblue: #4682B4 !default;
+$tan: #D2B48C !default;
+$teal: #008080 !default;
+$thistle: #D8BFD8 !default;
+$tomato: #FF6347 !default;
+$turquoise: #40E0D0 !default;
+$violet: #EE82EE !default;
+$wheat: #F5DEB3 !default;
+$white: #FFFFFF !default;
+$whitealabaster: #FAF9F9 !default;
+$whitecararra: #ECECE7 !default;
+$whitesmoke: #F5F5F5 !default;
+$yellow: #FFFF00 !default;
+$yellowgreen: #9ACD32 !default;
+$yellowtulip: #e8a03a !default;
+$gray:      #BAB1AD !default;
+$gray-dark: #403734 !default;
+
+$color-variants: (
+100:  -10%,
+        200:  -25%,
+        300:  -50%,
+        400:  -75%,
+        500:  100%,
+        600:   75%,
+        700:   50%,
+        800:   25%,
+        900:   15%
+);
+
+$colors: () !default;
+$colors: map-merge((
+	"aliceblue": $aliceblue,
+	"antiquewhite": $antiquewhite,
+	"aqua": $aqua,
+	"aquamarine": $aquamarine,
+	"azure": $azure,
+	"beige": $beige,
+	"bisque": $bisque,
+	"black": $black,
+	"blanchedalmond": $blanchedalmond,
+	"blue": $blue,
+	"blueviolet": $blueviolet,
+	"bluewedgewood": $bluewedgewood,
+	"brown": $brown,
+	"brownantiquebrass": $brownantiquebrass,
+	"browngeebung": $browngeebung,
+	"browntaupe": $browntaupe,
+	"browntoast": $browntoast,
+	"burlywood": $burlywood,
+	"cadetblue": $cadetblue,
+	"chartreuse": $chartreuse,
+	"chocolate": $chocolate,
+	"coral": $coral,
+	"cornflowerblue": $cornflowerblue,
+	"cornsilk": $cornsilk,
+	"crimson": $crimson,
+	"cyan": $cyan,
+	"darkblue": $darkblue,
+	"darkcyan": $darkcyan,
+	"darkgoldenrod": $darkgoldenrod,
+	"darkgray": $darkgray,
+	"darkgreen": $darkgreen,
+	"darkkhaki": $darkkhaki,
+	"darkmagenta": $darkmagenta,
+	"darkolivegreen": $darkolivegreen,
+	"darkorange": $darkorange,
+	"darkorchid": $darkorchid,
+	"darkred": $darkred,
+	"darksalmon": $darksalmon,
+	"darkseagreen": $darkseagreen,
+	"darkslateblue": $darkslateblue,
+	"darkslategray": $darkslategray,
+	"darkturquoise": $darkturquoise,
+	"darkviolet": $darkviolet,
+	"deeppink": $deeppink,
+	"deepskyblue": $deepskyblue,
+	"dimgray": $dimgray,
+	"dodgerblue": $dodgerblue,
+	"firebrick": $firebrick,
+	"floralwhite": $floralwhite,
+	"forestgreen": $forestgreen,
+	"fuchsia": $fuchsia,
+	"gainsboro": $gainsboro,
+	"ghostwhite": $ghostwhite,
+	"gold": $gold,
+	"goldenrod": $goldenrod,
+	"gray": $gray,
+	"graybalticsea": $graybalticsea,
+	"graychateau": $graychateau,
+	"grayflint": $grayflint,
+	"grayoslo": $grayoslo,
+	"grayshuttle": $grayshuttle,
+	"grayspunpearl": $grayspunpearl,
+	"graywoodsmoke": $graywoodsmoke,
+	"green": $green,
+	"greenaquaforest": $greenaquaforest,
+	"greenasparagus": $greenasparagus,
+	"greenfern": $greenfern,
+	"greenfruitsalad": $greenfruitsalad,
+	"greenyellow": $greenyellow,
+	"honeydew": $honeydew,
+	"hotpink": $hotpink,
+	"indianred": $indianred,
+	"indigo": $indigo,
+	"ivory": $ivory,
+	"khaki": $khaki,
+	"lavender": $lavender,
+	"lavenderblush": $lavenderblush,
+	"lawngreen": $lawngreen,
+	"lemonchiffon": $lemonchiffon,
+	"lightblue": $lightblue,
+	"lightcoral": $lightcoral,
+	"lightcyan": $lightcyan,
+	"lightgoldenrodyellow": $lightgoldenrodyellow,
+	"lightgray": $lightgray,
+	"lightgreen": $lightgreen,
+	"lightpink": $lightpink,
+	"lightsalmon": $lightsalmon,
+	"lightseagreen": $lightseagreen,
+	"lightskyblue": $lightskyblue,
+	"lightslategray": $lightslategray,
+	"lightsteelblue": $lightsteelblue,
+	"lightyellow": $lightyellow,
+	"lime": $lime,
+	"limegreen": $limegreen,
+	"linen": $linen,
+	"magenta": $magenta,
+	"maroon": $maroon,
+	"mediumaquamarine": $mediumaquamarine,
+	"mediumblue": $mediumblue,
+	"mediumorchid": $mediumorchid,
+	"mediumpurple": $mediumpurple,
+	"mediumseagreen": $mediumseagreen,
+	"mediumslateblue": $mediumslateblue,
+	"mediumspringgreen": $mediumspringgreen,
+	"mediumturquoise": $mediumturquoise,
+	"mediumvioletred": $mediumvioletred,
+	"midnightblue": $midnightblue,
+	"mintcream": $mintcream,
+	"mistyrose": $mistyrose,
+	"moccasin": $moccasin,
+	"navajowhite": $navajowhite,
+	"navy": $navy,
+	"oldlace": $oldlace,
+	"olive": $olive,
+	"olivedrab": $olivedrab,
+	"orange": $orange,
+	"orangebrandypunch": $orangebrandypunch,
+	"orangeecstasy": $orangeecstasy,
+	"orangefirebush": $orangefirebush,
+	"orangered": $orangered,
+	"orangezest": $orangezest,
+	"orchid": $orchid,
+	"palegoldenrod": $palegoldenrod,
+	"palegreen": $palegreen,
+	"paleturquoise": $paleturquoise,
+	"palevioletred": $palevioletred,
+	"papayawhip": $papayawhip,
+	"peachpuff": $peachpuff,
+	"peru": $peru,
+	"pink": $pink,
+	"pinkamaranth": $pinkamaranth,
+	"pinkcannon": $pinkcannon,
+	"pinkdeepblush": $pinkdeepblush,
+	"pinksea": $pinksea,
+	"plum": $plum,
+	"pomegranate": $pomegranate,
+	"powderblue": $powderblue,
+	"purple": $purple,
+	"purplerevolver": $purplerevolver,
+	"purplesmoky": $purplesmoky,
+	"red": $red,
+	"rosybrown": $rosybrown,
+	"royalblue": $royalblue,
+	"saddlebrown": $saddlebrown,
+	"salmon": $salmon,
+	"sandybrown": $sandybrown,
+	"seagreen": $seagreen,
+	"seashell": $seashell,
+	"sienna": $sienna,
+	"silver": $silver,
+	"skyblue": $skyblue,
+	"slateblue": $slateblue,
+	"slategray": $slategray,
+	"snow": $snow,
+	"springgreen": $springgreen,
+	"steelblue": $steelblue,
+	"tan": $tan,
+	"teal": $teal,
+	"thistle": $thistle,
+	"tomato": $tomato,
+	"turquoise": $turquoise,
+	"violet": $violet,
+	"wheat": $wheat,
+	"white": $white,
+	"whitealabaster": $whitealabaster,
+	"whitecararra": $whitecararra,
+	"whitesmoke": $whitesmoke,
+	"yellow": $yellow,
+	"yellowgreen": $yellowgreen,
+	"yellowtulip": $yellowtulip,
+        "gray-dark":  $gray-dark
+), $colors);
+
+$colors2: $colors;
+
+//  Add color variants to $colors
+@each $color-name, $color in $colors {
+@each $variant-name, $percent in $color-variants {
+    $mix-color: if($percent < 0%, white, black);
+    $colors: map-merge($colors, ($color-name+'-'+$variant-name: mix($color, $mix-color, abs($percent))));
+  }
+}
+
+/* remap grays */
+
+$gray-100: map-get($colors, gray-100);
+$gray-200: map-get($colors, gray-200);
+$gray-300: map-get($colors, gray-300);
+$gray-400: map-get($colors, gray-400);
+$gray-500: map-get($colors, gray-500);
+$gray-600: map-get($colors, gray-600);
+$gray-700: map-get($colors, gray-700);
+$gray-800: map-get($colors, gray-800);
+$gray-900: map-get($colors, gray-900);
+
+$enable-hover-media-query: true;
+
+/* Bootstrap 4 mixins - no change */
+
+@mixin hover {
+    // TODO: re-enable along with mq4-hover-shim
+    //  @if $enable-hover-media-query {
+    //    // See Media Queries Level 4: https://drafts.csswg.org/mediaqueries/#hover
+    //    // Currently shimmed by https://github.com/twbs/mq4-hover-shim
+    //    @media (hover: hover) {
+    //      &:hover { @content }
+    //    }
+    //  }
+    //  @else {
+    &:hover { @content; }
+  //  }
+}
+
+@mixin hover-focus {
+    @if $enable-hover-media-query {
+        &:focus {
+            @content;
+        }
+    @include hover { @content; }
+  } @else {
+        &:focus,
+    &:hover {
+            @content;
+        }
+  }
+}
+
+@mixin text-emphasis-variant($parent, $color) {
+    #{$parent} {
+color: $color !important;
+  }
+  a#{$parent} {
+    @include hover-focus {
+    color: darken($color, 10%) !important;
+    }
+  }
+}
+
+@mixin bg-variant($parent, $color) {
+    #{$parent} {
+background-color: $color !important;
+  }
+  a#{$parent} {
+    @include hover-focus {
+    background-color: darken($color, 10%) !important;
+    }
+  }
+}
+
+@mixin hover-variant($parent, $color) {
+    #{$parent} {
+    background-color: darken($color, 10%) !important;
+  }
+}
+
+// Color contrast - from Bootstrap 4 utilities - no change
+@function color-yiq($color) {
+$r: red($color);
+  $g: green($color);
+  $b: blue($color);
+
+  $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+  @if ($yiq >= 150) {
+    @return #111;
+  } @else {
+    @return #fff;
+  }
+}
+
+/* from Bootstrap 4 utilities - replaced $theme-colors with $colors */
+
+// text colors
+@each $color, $value in $colors {
+@include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+// background colors
+@each $color, $value in $colors {
+@include bg-variant(".bg-#{$color}", $value);
+}
+
+// background text contrast
+@each $color, $value in $colors {
+  .bg-#{$color} {
+color: color-yiq($value);
+  }
+}
+
+// border colors
+@each $color, $value in $colors {
+  .border-#{$color} {
+border-color: $value !important;
+  }
+}
+
