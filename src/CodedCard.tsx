@@ -22,9 +22,12 @@ const icons = ['smile text-darkorange', 'phone text-blue',
     'meteor text-danger', 'plane text-mediumblue',
     'poo text-darkgoldenrod', 'robot text-lightslategray', 
     'skull text-midnightblue', 'socks text-purple', 
-    'snowplow text-limegreen', 'umbrella text-peru', 
+    'snowplow text-limegreen-700', 'umbrella text-peru', 
+    'basketball-ball text-orange', 'bullhorn text-saddlebrown',
     'wind text-royalblue', 'user-secret text-palevioletred', 
-    'sun text-darkorange' ];
+    'sun text-darkorange', 'bus text-palevioletred',
+    'campground text-yellowgreen-600', 'camera-retro text-steelblue',
+    'cat text-sienna', 'dove text-rosybrown' ];
 
 export default function CodedCard( Props: MyProps ) : JSX.Element {
     const [shuffle] = useState<number>(Math.floor(Math.random()*100));

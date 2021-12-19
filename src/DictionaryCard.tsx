@@ -7,11 +7,11 @@ type MyProps = {
 export default function DictionaryCard( Props: MyProps ) : JSX.Element {
 
     return <div className='card'>
-        <div className='card-body row' style={{fontSize: '1.4em'}}>
+        <div className='card-body d-flex flex-wrap' style={{fontSize: '1.4em'}}>
             {Object.keys(Props.map).map( character => {
-                return <div key={character} className='col-4 mb-2 d-flex' style={{textAlign:'left'}}>
-                    <div style={{width: '30px'}}>{character}  </div>
-                    <span className={'pt-1 fas fa-'+Props.map[character]} />
+                return <div key={character} className='mb-2 mx-1 d-flex' style={{textAlign:'left', width: '55px'}}>
+                    <div style={{width: '24px'}}>{character}  </div>
+                    <span className={'pt-1 fas fa-'+Props.map[character]} style={{flexGrow: 1}} />
                     </div>
             })}
         </div>

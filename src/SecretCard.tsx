@@ -17,9 +17,9 @@ export default function SecretCard( Props: MyProps ) : JSX.Element {
                             <span className={`fas fa-${Props.map[char]}`} />
                             : <span>&nbsp;</span>
                         }
-                        <br/>
-                        <b>{Props.map[char] ? '_' : char}</b>
-                    
+                        <div>
+                            <b style={{fontSize: '1.5em'}}>{Props.map[char] ? '_' : char}</b>
+                        </div>
                         </div>;
                 })}
             </div>
