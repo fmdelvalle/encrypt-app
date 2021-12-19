@@ -1,4 +1,6 @@
-Children Encryption Demo Page
+# Children Encryption Demo Page
+
+You can try this project at [https://encrypt-app.vercel.app/](https://encrypt-app.vercel.app/) in your browser.
 
 # Getting Started with Create React App
 
